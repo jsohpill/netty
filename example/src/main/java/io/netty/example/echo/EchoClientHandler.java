@@ -41,7 +41,7 @@ public class EchoClientHandler implements ChannelInboundHandler {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) {
-        ctx.writeAndFlush(firstMessage);
+//        ctx.writeAndFlush(firstMessage);
     }
 
     @Override
